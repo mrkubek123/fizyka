@@ -738,6 +738,9 @@ case 'register' :
 <a href="<?php echo esc_url( wp_login_url() ); ?>"><?php _e( 'Log in' ); ?></a> |
 <a href="<?php echo esc_url( wp_lostpassword_url() ); ?>" title="<?php esc_attr_e( 'Password Lost and Found' ) ?>"><?php _e( 'Lost your password?' ); ?></a>
 </p>
+<p style="float: right;">
+<a href="<?php echo esc_url( wp_register() ); ?>" title="<?php esc_attr_e( 'Register' ) ?>"><?php _e( 'Register' ); ?></a>
+</p>
 
 <?php
 login_footer('user_login');
