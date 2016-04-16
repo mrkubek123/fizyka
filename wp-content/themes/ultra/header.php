@@ -40,7 +40,6 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<?php do_action('ultra_before_nav') ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-
 				<?php if ( siteorigin_setting( 'navigation_menu_search' ) ) : ?>
 					<div class="menu-search">
 						<div class="search-icon"></div>
@@ -48,7 +47,12 @@
 							<input type="text" class="field" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" />
 						</form>	
 					</div><!-- .menu-search -->
-				<?php endif; ?>				
+				<?php endif; ?>	
+<?php if (is_user_logged_in()): ?>
+	<a id="wyloguj" href="#" style="cursor:pointer">Wyloguj</a>			
+<? else: ?>
+	<a id="logowanie" href="#" style="cursor:pointer">Zaloguj się</a>			
+<?php endif; ?>
 			</nav><!-- #site-navigation -->
 		</div><!-- .container -->
 

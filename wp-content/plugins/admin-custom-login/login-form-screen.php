@@ -214,7 +214,7 @@ function acl_er_login_logo() {
 			  background-color: rgb(<?php echo $loginbg['red'];?>,<?php echo $loginbg['green']?>,<?php echo $loginbg['blue']?>);
 			  background:  url(<?php echo $login_page['login_bg_image'] ?>) <?php echo $login_page['login_bg_repeat'] ?> <?php echo $login_page['login_bg_position'] ?>;		
 			  
-			 background: rgba(<?php echo $loginbg['red'];?>,<?php echo $loginbg['green']?>,<?php echo $loginbg['blue']?>,<?php echo $login_form_opacity ?>);
+			 background: rgba(<?php echo $loginbg['red'];?>,<?php echo $loginbg['green']?>,<?php echo $loginbg['blue']?>,<?php echo $login_form_opacity ?>)!important;;
 			 
 			 <?php if($login_page['login_bg_type'] == "static-background-image" ){?>	
 				background: url('<?php echo WEBLIZAR_NALF_PLUGIN_URL.'css/img/'.$login_page['login_bg_effect'].'.png'; ?>') repeat scroll left top, url(<?php echo $login_page['login_bg_image'] ?>) <?php echo $login_page['login_bg_repeat'] ?> <?php echo $login_page['login_bg_position'] ?>;
