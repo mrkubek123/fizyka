@@ -49,7 +49,7 @@
 					</div><!-- .menu-search -->
 				<?php endif; ?>	
 <?php if (is_user_logged_in()): ?>
-	<a id="wyloguj" href="#" style="cursor:pointer">Wyloguj</a>			
+	<a id="wyloguj" href="<?php echo esc_url( wp_logout_url() ); ?>" style="cursor:pointer">Wyloguj</a>			
 <? else: ?>
 	<a id="logowanie" href="#" style="cursor:pointer">Zaloguj się</a>			
 <?php endif; ?>

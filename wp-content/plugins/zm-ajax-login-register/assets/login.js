@@ -28,8 +28,9 @@ $document.ready(function( $ ){
 
                 ajax_login_register_show_message( $this, msg );
                 $this.find( form_fields ).removeAttr('disabled');
-                zMAjaxLoginRegister.reload( msg.redirect_url );
-
+                $('ui-dialog-titlebar-close').click();
+                //zMAjaxLoginRegister.reload( msg.redirect_url );
+                location.reload();
             }
         });
     });

@@ -129,7 +129,7 @@ Class ALRLogin {
             $this->prefix . '_not_a_member' => array(
                 'href' => '#',
                 'class' => 'not-a-member-handle',
-                'text' => __( 'Are you a member?', ZM_ALR_TEXT_DOMAIN ),
+                'text' => __( 'Czy masz już konto?', ZM_ALR_TEXT_DOMAIN ),
                 ),
             $this->prefix . '_lost_password_url' => array(
                 'href' => wp_lostpassword_url(),

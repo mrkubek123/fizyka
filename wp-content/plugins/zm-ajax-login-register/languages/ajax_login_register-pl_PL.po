@@ -130,7 +130,7 @@ msgstr "Nieprawidłowa nazwa użytkownika"
 
 #: src/ALRCore/ALRHelpers.php:38
 msgid "Invalid"
-msgstr "Nieważna"
+msgstr "Niepoprawne hasło"
 
 #: src/ALRCore/ALRHelpers.php:43
 msgid "Passwords do not match."
@@ -142,7 +142,7 @@ msgstr "Nieprawidłowy adres e-mail."
 
 #: src/ALRCore/ALRHelpers.php:65 src/ALRCore/ALRHelpers.php:70
 msgid "Success! One moment while we log you in..."
-msgstr "Sukces! Jednej chwili, a my Zaloguj się..."
+msgstr "Poprawne logowanie"
 
 #: src/ALRCore/ALRLogin.php:137
 msgid "Forgot Password"
