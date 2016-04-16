@@ -67,7 +67,11 @@ function ultra_setup() {
 	    }
 	}
 	add_action( 'template_redirect', 'ultra_adjust_content_width' );  	
-
+add_action('wp_logout','go_home');
+function go_home(){
+  wp_redirect( home_url() );
+  exit();
+}
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.

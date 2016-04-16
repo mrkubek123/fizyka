@@ -35,7 +35,7 @@ Class ALRHelpers {
                 ),
 
             'incorrect_password' => array(
-                'description' => __( 'Invalid', ZM_ALR_TEXT_DOMAIN ),
+                'description' => __( 'Nieprawidłowe hasło', ZM_ALR_TEXT_DOMAIN ),
                 'cssClass' => 'error-container',
                 'code' => 'show_notice'
                 ),
@@ -62,12 +62,12 @@ Class ALRHelpers {
                 ),
 
             'success_login' => array(
-                'description' => __( 'Success! One moment while we log you in...', ZM_ALR_TEXT_DOMAIN ),
+                'description' => __( 'Poprawne logowanie', ZM_ALR_TEXT_DOMAIN ),
                 'cssClass' => 'success-container',
                 'code' => 'success_login'
                 ),
             'success_registration' => array(
-                'description' => __( 'Success! One moment while we log you in...', ZM_ALR_TEXT_DOMAIN ),
+                'description' => __( 'Poprawne logowanie', ZM_ALR_TEXT_DOMAIN ),
                 'cssClass' => 'noon success-container',
                 'code' => 'success_registration'
                 )
